@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "loan_amount": {
+      "type": "biginteger"
+    },
+    "interest": {
+      "type": "integer"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "office_address": {
+      "type": "string"
+    },
+    "phone_1": {
+      "type": "biginteger"
+    },
+    "phone_2": {
+      "type": "biginteger"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "loan_start": {
+      "type": "date"
+    },
+    "loan_expiry": {
+      "type": "date"
+    },
+    "monthly_date": {
+      "type": "date"
+    },
+    "monthly_payment": {
+      "type": "biginteger"
+    },
+    "disbursed": {
+      "type": "boolean"
+    },
+    "denied": {
+      "type": "boolean"
+    },
+    "processing": {
+      "type": "boolean"
+    },
+    "paid": {
+      "type": "boolean"
+    },
+    "dues_soon": {
+      "type": "boolean"
+    },
+    "overdue": {
+      "type": "boolean"
+    },
+    "customer_id": {
+      "type": "uid"
+    }
+  }
+}
