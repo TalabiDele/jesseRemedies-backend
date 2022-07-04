@@ -71,6 +71,12 @@
     },
     "manager": {
       "type": "boolean"
+    },
+    "loanees": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::customer.customer",
+      "mappedBy": "user"
     }
   }
 }
