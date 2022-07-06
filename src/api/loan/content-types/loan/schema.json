@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loans",
+  "info": {
+    "singularName": "loan",
+    "pluralName": "loans",
+    "displayName": "loan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "biginteger"
+    },
+    "interest": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "loan_id": {
+      "type": "uid"
+    },
+    "customer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::customer.customer",
+      "inversedBy": "loans"
+    },
+    "loan_status": {
+      "type": "string"
+    },
+    "loan_count": {
+      "type": "integer"
+    },
+    "monthly_payment": {
+      "type": "biginteger"
+    }
+  }
+}
