@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "fullname": {
+    "firstname": {
       "type": "string"
     },
     "nationality": {
@@ -55,6 +55,57 @@
       "relation": "oneToMany",
       "target": "api::loan.loan",
       "mappedBy": "customer"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "reference_name": {
+      "type": "string"
+    },
+    "reference_number": {
+      "type": "biginteger"
+    },
+    "employment_status": {
+      "type": "string"
+    },
+    "employer": {
+      "type": "string"
+    },
+    "date_started": {
+      "type": "date"
+    },
+    "work_email": {
+      "type": "email"
+    },
+    "work_number": {
+      "type": "biginteger"
+    },
+    "current_income": {
+      "type": "biginteger"
+    },
+    "asset": {
+      "type": "string"
+    },
+    "asset_type": {
+      "type": "string"
+    },
+    "value_of_asset": {
+      "type": "biginteger"
+    },
+    "card_number": {
+      "type": "biginteger"
+    },
+    "cvv": {
+      "type": "biginteger"
+    },
+    "card_expiry": {
+      "type": "date"
     }
   }
 }
