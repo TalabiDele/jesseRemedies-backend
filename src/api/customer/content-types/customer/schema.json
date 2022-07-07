@@ -15,7 +15,7 @@
     "firstname": {
       "type": "string"
     },
-    "nationality": {
+    "state": {
       "type": "string"
     },
     "address": {
