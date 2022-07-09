@@ -30,7 +30,7 @@
     "phone_2": {
       "type": "biginteger"
     },
-    "image": {
+    "passport": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -106,6 +106,26 @@
     },
     "card_expiry": {
       "type": "date"
+    },
+    "office_id": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "identification": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
