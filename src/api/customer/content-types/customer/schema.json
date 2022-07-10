@@ -108,6 +108,28 @@
       "type": "date"
     },
     "office_id": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "identification": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "payslip": {
       "allowedTypes": [
         "images",
         "files",
@@ -117,7 +139,27 @@
       "type": "media",
       "multiple": false
     },
-    "identification": {
+    "memo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cac": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "utility": {
       "allowedTypes": [
         "images",
         "files",
