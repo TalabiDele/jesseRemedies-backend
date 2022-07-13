@@ -172,6 +172,9 @@
         "videos",
         "audios"
       ]
+    },
+    "approved": {
+      "type": "boolean"
     }
   }
 }
