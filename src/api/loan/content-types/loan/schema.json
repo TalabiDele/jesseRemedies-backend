@@ -62,6 +62,12 @@
     },
     "amount_owed": {
       "type": "biginteger"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "loan_start": {
+      "type": "boolean"
     }
   }
 }
