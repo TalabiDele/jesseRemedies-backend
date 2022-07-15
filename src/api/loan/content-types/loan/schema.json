@@ -56,6 +56,12 @@
     },
     "overdue": {
       "type": "boolean"
+    },
+    "amount_paid": {
+      "type": "biginteger"
+    },
+    "amount_owed": {
+      "type": "biginteger"
     }
   }
 }
