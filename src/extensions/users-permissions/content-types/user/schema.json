@@ -77,6 +77,9 @@
       "relation": "oneToMany",
       "target": "api::customer.customer",
       "mappedBy": "user"
+    },
+    "md": {
+      "type": "boolean"
     }
   }
 }
