@@ -175,6 +175,74 @@
     },
     "approved": {
       "type": "boolean"
+    },
+    "bank_statement": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "land_papers": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "guarator_passport": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "executed_letter": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "memat": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "guarantor_name": {
+      "type": "string"
+    },
+    "guarantor_address": {
+      "type": "string"
+    },
+    "guarantor_occupation": {
+      "type": "string"
+    },
+    "guarantor_phone": {
+      "type": "string"
+    },
+    "guarantor_email": {
+      "type": "string"
+    },
+    "guarantor_office": {
+      "type": "string"
     }
   }
 }
