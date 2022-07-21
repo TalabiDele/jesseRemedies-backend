@@ -265,14 +265,33 @@
       "type": "string"
     },
     "guarantor_passport": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "employee_position": {
+      "type": "string"
+    },
+    "employment_type": {
+      "type": "string"
+    },
+    "dependants": {
+      "type": "biginteger"
+    },
+    "state_of_origin": {
+      "type": "string"
+    },
+    "salary_date": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "string"
     }
   }
 }
