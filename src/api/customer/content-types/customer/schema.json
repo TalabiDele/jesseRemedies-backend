@@ -177,59 +177,61 @@
       "type": "boolean"
     },
     "bank_statement": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "land_papers": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "guarator_passport": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "executed_letter": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "memat": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "guarantor_name": {
-      "type": "string"
-    },
-    "guarantor_address": {
       "type": "string"
     },
     "guarantor_occupation": {
@@ -243,6 +245,34 @@
     },
     "guarantor_office": {
       "type": "string"
+    },
+    "guarantor_birth": {
+      "type": "string"
+    },
+    "guarantor_home": {
+      "type": "string"
+    },
+    "guarantor_employer": {
+      "type": "string"
+    },
+    "guarantor_position": {
+      "type": "string"
+    },
+    "guarantor_relation": {
+      "type": "string"
+    },
+    "guarantor_length": {
+      "type": "string"
+    },
+    "guarantor_passport": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
