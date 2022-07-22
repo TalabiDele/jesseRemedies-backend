@@ -68,6 +68,9 @@
     },
     "loan_start": {
       "type": "boolean"
+    },
+    "purpose": {
+      "type": "text"
     }
   }
 }
