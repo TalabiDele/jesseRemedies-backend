@@ -71,6 +71,9 @@
     },
     "purpose": {
       "type": "text"
+    },
+    "approval_reason": {
+      "type": "richtext"
     }
   }
 }
