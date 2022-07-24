@@ -292,6 +292,19 @@
     },
     "gender": {
       "type": "string"
+    },
+    "customer_comment": {
+      "type": "richtext"
+    },
+    "signature": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
