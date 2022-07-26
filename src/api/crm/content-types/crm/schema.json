@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crms",
+  "info": {
+    "singularName": "crm",
+    "pluralName": "crms",
+    "displayName": "crm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "number": {
+      "type": "biginteger"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "crms"
+    },
+    "email": {
+      "type": "email"
+    },
+    "career": {
+      "type": "string"
+    }
+  }
+}

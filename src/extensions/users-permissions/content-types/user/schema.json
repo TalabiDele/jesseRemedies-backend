@@ -80,6 +80,12 @@
     },
     "md": {
       "type": "boolean"
+    },
+    "crms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::crm.crm",
+      "mappedBy": "user"
     }
   }
 }
