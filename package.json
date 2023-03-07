@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "production": "cross-env NODE_ENV=production npm run build"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.2.2",
@@ -15,6 +16,7 @@
     "@strapi/provider-upload-cloudinary": "^4.2.2",
     "@strapi/strapi": "4.2.2",
     "better-sqlite3": "7.4.6",
+    "cross-env": "^7.0.3",
     "node-postgres": "^0.6.2",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
