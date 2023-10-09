@@ -44,4 +44,10 @@ module.exports = ({ env }) => ({
   auth: {
     secret: env("AUTH_SECRET"),
   },
+  transfer: {
+    token: {
+      salt:
+        env("TRANSFER_TOKEN_SALT") || crypto.randomBytes(16).toString("base64"),
+    },
+  },
 });
