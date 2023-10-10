@@ -32,6 +32,7 @@
 //     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 //   );
 // }
+const crypto = require("crypto");
 
 module.exports = ({ env }) => ({
   auth: {
