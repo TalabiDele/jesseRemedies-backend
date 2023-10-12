@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "authorization_code": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "loan": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::loan.loan",
+      "inversedBy": "payments"
+    }
+  }
+}

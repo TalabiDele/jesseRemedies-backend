@@ -74,6 +74,12 @@
     },
     "approval_reason": {
       "type": "richtext"
+    },
+    "payments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::payment.payment",
+      "mappedBy": "loan"
     }
   }
 }
