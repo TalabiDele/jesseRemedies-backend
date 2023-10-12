@@ -4,7 +4,8 @@
   "info": {
     "singularName": "payment",
     "pluralName": "payments",
-    "displayName": "payment"
+    "displayName": "payment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,16 +15,10 @@
     "authorization_code": {
       "type": "text"
     },
-    "email": {
-      "type": "email"
-    },
-    "amount": {
-      "type": "biginteger"
-    },
-    "loan": {
+    "customer": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::loan.loan",
+      "target": "api::customer.customer",
       "inversedBy": "payments"
     }
   }
