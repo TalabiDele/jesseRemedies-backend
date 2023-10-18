@@ -74,6 +74,9 @@
     },
     "approval_reason": {
       "type": "richtext"
+    },
+    "total_payment": {
+      "type": "biginteger"
     }
   }
 }
