@@ -310,8 +310,11 @@
       "target": "api::payment.payment",
       "mappedBy": "customer"
     },
-    "salary_date": {
+    "salary_day": {
       "type": "biginteger"
+    },
+    "salary_date": {
+      "type": "date"
     }
   }
 }
