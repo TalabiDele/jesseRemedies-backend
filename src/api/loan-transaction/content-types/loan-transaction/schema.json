@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loan_transactions",
+  "info": {
+    "singularName": "loan-transaction",
+    "pluralName": "loan-transactions",
+    "displayName": "loan transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "loan": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::loan.loan",
+      "inversedBy": "loan_transactions"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "authorization_code": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "reference": {
+      "type": "string"
+    }
+  }
+}

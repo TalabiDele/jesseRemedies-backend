@@ -77,6 +77,12 @@
     },
     "total_payment": {
       "type": "biginteger"
+    },
+    "loan_transactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::loan-transaction.loan-transaction",
+      "mappedBy": "loan"
     }
   }
 }
