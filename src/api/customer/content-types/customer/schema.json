@@ -315,6 +315,9 @@
     },
     "salary_date": {
       "type": "date"
+    },
+    "customer_type": {
+      "type": "string"
     }
   }
 }
