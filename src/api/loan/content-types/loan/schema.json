@@ -86,6 +86,12 @@
     },
     "weekly_pay": {
       "type": "boolean"
+    },
+    "weekly_payments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::weekly-payment.weekly-payment",
+      "mappedBy": "loan"
     }
   }
 }

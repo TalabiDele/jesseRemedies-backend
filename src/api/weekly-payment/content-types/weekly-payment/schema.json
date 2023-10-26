@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weekly_payments",
+  "info": {
+    "singularName": "weekly-payment",
+    "pluralName": "weekly-payments",
+    "displayName": "weekly payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment_date": {
+      "type": "date"
+    },
+    "loan": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::loan.loan",
+      "inversedBy": "weekly_payments"
+    }
+  }
+}
