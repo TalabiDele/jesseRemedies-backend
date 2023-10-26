@@ -83,6 +83,9 @@
       "relation": "oneToMany",
       "target": "api::loan-transaction.loan-transaction",
       "mappedBy": "loan"
+    },
+    "weekly_pay": {
+      "type": "boolean"
     }
   }
 }
