@@ -318,6 +318,20 @@
     },
     "customer_type": {
       "type": "string"
+    },
+    "guarantor_id": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "work_address": {
+      "type": "string"
     }
   }
 }
