@@ -332,6 +332,9 @@
     },
     "work_address": {
       "type": "string"
+    },
+    "guarantor_origin": {
+      "type": "text"
     }
   }
 }
