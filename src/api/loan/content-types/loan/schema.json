@@ -92,6 +92,12 @@
       "relation": "oneToMany",
       "target": "api::weekly-payment.weekly-payment",
       "mappedBy": "loan"
+    },
+    "disburse_date": {
+      "type": "date"
+    },
+    "super_approve": {
+      "type": "boolean"
     }
   }
 }
